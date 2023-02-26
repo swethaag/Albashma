@@ -1,0 +1,55 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+svg{
+    cursor: pointer;
+}
+.offcanvas{
+    width: 22%;
+}
+.logo{
+   width: 200px; 
+}
+
+.navbar-nav ul li:hover>ul.dropdown-menu{
+    display: block;
+    top: 0;
+    margin-top: -15px;
+    margin-left: 85%;
+    width: 100%;
+} 
+.dropdown-submenu{
+    height: 25px;
+    
+}
+.dropdown-item:hover{
+   background-color: #FBD551;
+   color: black;
+
+}
+
+
+@media (min-width: 960px){
+    .menuDrop, .menu-bar, #offcanvasRightMenu{
+        display: none;
+    }
+}
+@media (max-width: 960px){
+    .dropDowns{
+        display: none !important;
+    }
+    .offcanvas{
+        width: 32%;
+    }
+    .nav-link {
+        display: block;
+        padding: 0.2rem 1rem;
+    }
+}
+@media (max-width: 580px){
+    .offcanvas{
+        width: 60%;
+    }
+}

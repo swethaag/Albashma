@@ -1,0 +1,17 @@
+
+h5{
+    white-space: nowrap;
+}
+.row{
+    margin: 0px auto;
+}
+@media(max-width: 330px){
+    .buttons{
+        margin-left: 18%;
+    }
+}
+@media(max-width: 500px){
+    .content-child{
+        padding: 0px 0px !important;
+    }
+}
